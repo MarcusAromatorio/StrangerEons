@@ -18,6 +18,9 @@ public interface IEntity {
     // Main method in which one "does" an action
     void DoAction();
 
+    // Method in which the entity dies, or does it's own form of dying.
+    void Die();
+
     // What gameobject owns this entity implementation
     GameObject m_Root { get; set; }
 	

@@ -67,4 +67,9 @@ public class PlayerController : MonoBehaviour, IEntity {
     {
         return true;
     }
+
+    public void Die() {
+        // Player can't move, and activates dying sprite.
+        // Is Dead state Activates
+    }
 }
